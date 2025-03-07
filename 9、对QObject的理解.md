@@ -2,7 +2,7 @@
 
 QObject 类是Qt 所有类的基类。
 
-QObject是Qt对象模型的核心。这个模型的中心要素就是一种强大的叫做信号与槽无缝对象沟通机制。你可以用 connect() 函数来把一个信号连接到槽，也可以用disconnect() 函数来破坏这个连接。为了避免永无止境的通知循环，你可以用blockSignal() 函数来暂时阻塞信号。保护函数 connectNotify() 和 disconnectNotify() 可以用来跟踪连接。
+QObject是Qt对象模型的核心。这个模型的中心要素就是一种强大的叫做信号与槽无缝对象沟通机制。你可以用 connect() 函数来把一个信号连接到槽，也可以用disconnect() 函数来破坏这个连接。为了避免永无止境的通知循环，你可以用blockSignal() 函数来暂时阻塞信号。函数 connectNotify() 和 disconnectNotify() 可以用来跟踪连接。
 
 对象树都是通过QObject 组织起来的，当以一个对象作为父类创建一个新的对象时，这个新对象会被自动加入到父类的 children() 队列中。这个父类有子类的所有权。能够在父类的析构函数中自动删除子类。可以通过findChild()和findChildren() 函数来寻找子类。
 

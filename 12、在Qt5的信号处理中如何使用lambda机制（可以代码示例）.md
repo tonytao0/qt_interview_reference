@@ -1,9 +1,13 @@
 # 12、在Qt5的信号处理中如何使用lambda机制（可以代码示例）
 
-信号定义了，但是不写对应槽函数，直接将函数写到槽的位置。
+不写接受者和槽函数，直接写lambda表达式：
+ 
 
-connect(musicPlayer,SIGNAL(positionChanged(qint64)),this,SLOT(slotReflushStartTime(qint64)));
 
-connect(musicPlayer,SIGNAL(positionChanged(qint64)),slotReflushStartTime(qint64));
+    QPushButton *button = new QPushButton("Click me", &window);
 
-直接就是将对象都不写了，直接写个函数。 
+    // 使用lambda表达式连接按钮的clicked信号
+    QObject::connect(button, &QPushButton::clicked, [&]() {
+        // 当按钮被点击时，执行以下代码
+        button->setText("Clicked!");
+    });
