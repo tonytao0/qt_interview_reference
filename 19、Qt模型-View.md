@@ -1,5 +1,0 @@
-# 19、Qt模型-View
-
-Qt中的View主要有三种QListView，QTreeView, QTabelView
-
-而对应的Model是：QStringListModel, QAbstractItemModel , QStandardItemModel。
