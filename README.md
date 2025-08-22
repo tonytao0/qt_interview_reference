@@ -22,7 +22,7 @@
 ##### [16、Qt对象树](https://github.com/tonytao0/qt_interview_reference/blob/main/16%E3%80%81Qt%E5%AF%B9%E8%B1%A1%E6%A0%91.md)
 ##### [17、描述QTextStream(文件流)和QDataStram(数据流)的区别](https://github.com/tonytao0/qt_interview_reference/blob/main/17%E3%80%81%E6%8F%8F%E8%BF%B0QTextStream(%E6%96%87%E4%BB%B6%E6%B5%81)%E5%92%8CQDataStram(%E6%95%B0%E6%8D%AE%E6%B5%81)%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 ##### [18、信号槽的四种写法和五种连接方式？](https://github.com/tonytao0/qt_interview_reference/blob/main/18%E3%80%81%E4%BF%A1%E5%8F%B7%E6%A7%BD%E7%9A%84%E5%9B%9B%E7%A7%8D%E5%86%99%E6%B3%95%E5%92%8C%E4%BA%94%E7%A7%8D%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%EF%BC%9F.md)
-##### [19、Qt模型](https://github.com/tonytao0/qt_interview_reference/blob/main/19%E3%80%81Qt%E6%A8%A1%E5%9E%8B.md)
+##### [19、Qt视图](https://github.com/tonytao0/qt_interview_reference/blob/main/19%E3%80%81Qt%E8%A7%86%E5%9B%BE.md)
 ##### [20、Qt中的MVD了解吧？](https://github.com/tonytao0/qt_interview_reference/blob/main/20%E3%80%81Qt%E4%B8%AD%E7%9A%84MVD%E4%BA%86%E8%A7%A3%E5%90%A7%EF%BC%9F.md)
 ##### [21、Qt如果要进行网络编程首先需要在.pro中添加如下代码 QT network](https://github.com/tonytao0/qt_interview_reference/blob/main/21%E3%80%81Qt%E5%A6%82%E6%9E%9C%E8%A6%81%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E9%A6%96%E5%85%88%E9%9C%80%E8%A6%81%E5%9C%A8.pro%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81%20QT%20network.md)
 ##### [22、static和const的使用](https://github.com/tonytao0/qt_interview_reference/blob/main/22%E3%80%81static%E5%92%8Cconst%E7%9A%84%E4%BD%BF%E7%94%A8.md)
