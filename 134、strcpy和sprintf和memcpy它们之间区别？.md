@@ -3,9 +3,8 @@
 strcpy、sprintf和memcpy都是C语言中的字符串和内存操作函数，它们之间的主要区别如下：
 
 
-strcpy用于将一个字符串复制到另一个字符串中，比如将src字符串复制到dest字符串中。函数原型为：char *strcpy(char *dest, const char *src)；
+strcpy：字符串复制函数，用于将源字符串（以 \0 结尾）完整地复制到目标缓冲区，包括结束符 \0。函数原型为：char *strcpy(char *dest, const char *src)；
 
-sprintf用于将格式化的数据转换成字符串并存储到另一个字符串中，比如将格式化的数字或文本保存到buf字符串中。函数原型为：int sprintf(char *buf, const char *format, ...)；
+sprintf：格式化字符串输出函数，将格式化的数据写入目标字符串缓冲区，自动添加结束符 \0。支持多种数据类型（如整数、浮点数、字符串等）的格式化拼接。函数原型为：int sprintf(char *buf, const char *format, ...)；
 
-memcpy用于将一段内存的内容复制到另一个内存中，比如将src内存的内容复制到dest内存中。函数原型为：void *memcpy(void *dest, const void *src, size_t n)；
-总的来说，这三个函数的作用不同，strcpy和memcpy主要用于字符串和内存的复制，而sprintf主要用于格式化数据的转换。使用时需要结合具体的需求选择合适的函数来操作。
+memcpy：内存块复制函数，按字节复制指定长度的内存数据，不关心数据内容（可以是字符串、数组、结构体等），也不处理结束符'\0'。函数原型为：void *memcpy(void *dest, const void *src, size_t n)；
