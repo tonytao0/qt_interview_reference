@@ -132,7 +132,7 @@
 ##### [126、C++多线程加锁，会劣化性能，请问有什么优化的手段？](https://github.com/tonytao0/qt_interview_reference/blob/main/126%E3%80%81C%2B%2B%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%8A%A0%E9%94%81%EF%BC%8C%E4%BC%9A%E5%8A%A3%E5%8C%96%E6%80%A7%E8%83%BD%EF%BC%8C%E8%AF%B7%E9%97%AE%E6%9C%89%E4%BB%80%E4%B9%88%E4%BC%98%E5%8C%96%E7%9A%84%E6%89%8B%E6%AE%B5%EF%BC%9F.md)
 ##### [127、Qt 中的容器类包括](https://github.com/tonytao0/qt_interview_reference/blob/main/127%E3%80%81Qt%20%E4%B8%AD%E7%9A%84%E5%AE%B9%E5%99%A8%E7%B1%BB%E5%8C%85%E6%8B%AC.md)
 ##### [128、Qt中的模型视图框架是什么？](https://github.com/tonytao0/qt_interview_reference/blob/main/128%E3%80%81Qt%E4%B8%AD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%A7%86%E5%9B%BE%E6%A1%86%E6%9E%B6%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
-##### [129、Qt中的插件是什么？](https://github.com/tonytao0/qt_interview_reference/blob/main/129%E3%80%81Qt%E4%B8%AD%E7%9A%84%E6%8F%92%E4%BB%B6%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
+
 ##### [130、Qt中的样式表是什么？](https://github.com/tonytao0/qt_interview_reference/blob/main/130%E3%80%81Qt%E4%B8%AD%E7%9A%84%E6%A0%B7%E5%BC%8F%E8%A1%A8%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
 
 ##### [132、什么是Qt的插件机制？](https://github.com/tonytao0/qt_interview_reference/blob/main/132%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFQt%E7%9A%84%E6%8F%92%E4%BB%B6%E6%9C%BA%E5%88%B6%EF%BC%9F.md)
